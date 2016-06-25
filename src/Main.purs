@@ -18,7 +18,12 @@ slide "" $
       ]
 
 , slide "Why PureScript?" $
-    valign [ ]
+    ulist
+      [ text "Language"
+      , text "Community"
+      , text "Tooling"
+      , text "Ecosystem"
+      ]
 
 , slide "Language Features" $
     ulist
@@ -42,35 +47,32 @@ slide "" $
       [ image "resources/project.png"
       ]
 
-, slide "Community - #purescript" $
+, slide "Community: #purescript" $
     valign
       [ image "resources/irc.png"
+      , image "resources/irc2.png"
       ]
 
-, slide "Community - /r/purescript" $
+, slide "Community: /r/purescript" $
     valign
       [ image "resources/reddit.png"
       ]
 
-, slide "Community - meetup.com" $
+, slide "Community: meetup.com" $
     valign
       [ image "resources/meetups.png"
       ]
 
-
-, slide "Tooling" $
-    valign [ ]
-
-, slide "Try It!" $
+, slide "Tooling: Try It!" $
     center $ valign
       [ center $ link "http://try.purescript.org" $ text "try.purescript.org"
       , image "resources/try.png"
       ]
 
-, slide "PSCi" $
+, slide "Tooling: PSCi" $
     center $ image "resources/psci.png"
 
-, slide "Editor Plugins with PSC-IDE" $
+, slide "Tooling: Editor Plugins with PSC-IDE" $
     center $
       valign
         [ center $ withClass "margin" $
@@ -92,12 +94,10 @@ slide "" $
             ]
         ]
 
-, slide "Pursuit" $
+, slide "Tooling: Pursuit" $
     center $ image "resources/pursuit.png"
 
-, slide "" $ center $ title "Ecosystem"
-
-, slide "UI Frameworks" $
+, slide "Ecosystem: UI Frameworks" $
     center $
       halign
         [ withClass "margin" $
@@ -117,7 +117,7 @@ slide "" $
               ]
         ]
 
-, slide "More" $
+, slide "Ecosystem: More" $
     center $ image "resources/packages.png"
 
 , slide "" $

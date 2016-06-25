@@ -6,6 +6,10 @@ body {
   color: #000;
   line-height: 1.5em;
 }
+.counter {
+  font-size: 20px;
+  margin-left: 10px;
+}
 
 h1, h2, h3 {
   color: #000;

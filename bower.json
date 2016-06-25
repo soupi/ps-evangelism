@@ -1,11 +1,11 @@
 {
-  "name": "fp slides",
+  "name": "ps-evangelism",
   "private": true,
   "authors": [
     "Gil Mizrahi <soupiral@gmail.com>"
   ],
   "license": "BSD3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -16,6 +16,22 @@
   ],
   "dependencies": {
     "purescript-prelude": "latest",
-    "purescript-slides": "git://github.com/soupi/purescript-slides.git"
+    "purescript-slides": "^0.3.0"
+  },
+  "resolutions": {
+    "purescript-prelude": "^1.0.1",
+    "purescript-maybe": "1.0.0",
+    "purescript-foldable-traversable": "1.0.0",
+    "purescript-monoid": "^1.0.0",
+    "purescript-arrays": "^1.0.0",
+    "purescript-bifunctors": "^1.0.0",
+    "purescript-control": "^1.0.0",
+    "purescript-lists": "^1.0.0",
+    "purescript-unfoldable": "^1.0.0",
+    "purescript-tuples": "^1.0.0",
+    "purescript-invariant": "^1.0.0",
+    "purescript-st": "^1.0.0",
+    "purescript-lazy": "^1.0.0",
+    "purescript-eff": "^1.0.0"
   }
 }
